@@ -1,0 +1,219 @@
+header {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    color: #fff;
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+header form {
+    float: right;
+}
+
+header logo {
+    float: left;
+}
+
+header button
+                                       /*-------------Navbar section-------------*/
+
+/*------Navbar------*/
+.navbar {
+    background-color: rgb(250, 250, 246);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: lightgoldenrodyellow;
+    z-index: 5;
+    text-align: center;
+}
+
+/*------Brand Name-------*/
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color:peru;
+}
+
+/*------Toggler------*/
+.navbar-toggler-icon {
+    border: 1px gray !important;
+}
+
+
+.fa-bars {
+    color:rgb(94, 94, 94);
+}
+
+/*------Links------*/
+.navbar-nav {
+    padding-top: 3px;
+    align-items: center;
+}
+
+.navbar-collapse ul li {
+    text-align: center;
+    cursor: pointer;
+    padding-right: 14px;
+    text-align: left;
+    justify-content: left;
+}
+
+.navbar-collapse ul li a {
+    font-weight: bold;
+    color:rgb(94, 94, 94);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.panel-heading {
+    background-image: linear-gradient(#04519b, #044687 60%, #033769) !important;
+    color: #fff !important;
+}
+
+
+.bubble {
+    position: relative;
+    width: 580px;
+    min-height: 65px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-top: -15px;
+    left: -15px;
+    top: 50%;
+}
+
+
+.bubble:before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #ccc;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-top: -15px;
+    left: -16px;
+    top: 50%;
+}
+
+.post-actions {
+    margin: 15px;
+}
+
+.comment-form .form-group {
+    width: 85%;
+}
+
+.comment-form input[type='text'] {
+    width: 100%;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0;
+    overflow: auto;
+    width: 100%;
+}
+
+.comment-avatar img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.friends li {
+    list-style: none;
+    padding:0 5px ;
+    display: inline;
+    float: left;
+}
+
+.friends img {
+    width: 60px;
+}
+
+.groups img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+}
+
+.members .member-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.members img {
+    margin-bottom: 5px;
+}
+
+.profile ul {
+    margin-top: 30px;
+}
+
+.profile li {
+    list-style: none;
+    line-height: 1.9em;
+}
+
+.photos {
+    margin: 0;
+    padding: 0;
+}
+
+.photos li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 23%;
+}
+
+.photos img {
+    width: 100%;
+}
+
+footer {
+    background: #f4f4f4;
+    height: 90px;
+    color: #04519b;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #04519b;
+}
+
+@media(min-width: 991px) {
+    
+.members p {
+    padding-top: 40px;
+}
+}
